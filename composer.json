@@ -1,0 +1,25 @@
+{
+    "name": "codememory/sql-data",
+    "description": "sql parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danil",
+            "email": "kostynd1@gmail.com"
+        }
+    ],
+    "require": {
+        "greenlion/php-sql-parser": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codememory\\Components\\SqlParser\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}
